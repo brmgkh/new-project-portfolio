@@ -1,0 +1,134 @@
+
+footer{
+    background-color:#333;
+    padding: 10px;
+    opacity: 0.5; 
+    color: white;
+}
+
+.contactMe{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+
+h1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.svg{
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+img{
+ height: 200px;   
+}
+.card{
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.basDePage{
+    display: flex;
+    justify-content: space-around;
+}
+
+.adress,.numberPhone,.email,.webSite{
+   
+    display: flex;
+}
+h6{
+    margin-left: 5px;
+}
+.logosSocialMedia{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    
+}
+
+
+/*faire tourner l'étoile*/
+  @-moz-keyframes spin {
+    100% { -moz-transform: rotate(-360deg); }
+  }
+  @-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(-360deg); }
+  }
+  @keyframes spin {
+    100% { -webkit-transform: rotate(-360deg); transform: rotate(-360deg); }
+  }
+  #svgEtoile {
+    -webkit-animation: spin 2.5s linear infinite;
+    -moz-animation: spin 2.5s linear infinite;
+    animation: spin 2.5s linear infinite;
+  }
+  /*rotation logos*/
+  #facebook{
+    transition-duration: 0.8s;
+    transition-property: transform;
+  }
+  #facebook:hover{
+    transform: rotate(360deg);
+  }
+  #instagram{
+    transition-duration: 0.8s;
+    transition-property: transform;
+  }
+  #instagram:hover{
+    transform: rotate(360deg);
+  }
+  #linkedin{
+    transition-duration: 0.8s;
+    transition-property: transform;
+  }
+  #linkedin:hover{
+    transform: rotate(360deg);
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    opacity: 0.5;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #0D6EFD;
+  }
+
+  #copyright{
+    color: white;
+  }
+#carouselExampleIndicators{
+  width: 50%;
+  margin: auto;
+}
